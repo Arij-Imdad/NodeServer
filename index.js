@@ -9,7 +9,7 @@ var server=http.Server(function (req, res) {
     res.writeHead(200, {'Content-Type': 'text/plain'});
     res.end('Hello Node.js\n');
     console.log('waeawe')
-}).listen(3000, "192.168.10.42");
+}).listen(3000);
 
 console.log('Server running at http://192.168.10.42:3000/');
 
